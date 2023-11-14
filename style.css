@@ -1,7 +1,7 @@
 .header, .footer {
     justify-content: space-between;
 
-    padding: 12px 36px;
+    padding: 12px 36px; /* TODO: Make this line up perfectly with everything else */
 }
 
 .header, .footer, .topBanner {
@@ -10,6 +10,14 @@
     background-color: #1F2937;
     color: white;
 }
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: #3882F6;
+    color: white;
+    padding: 8px 24px;
+  }
 
 .footer {
     align-items: center;
@@ -40,8 +48,8 @@ ul {
 }
 
 p {
-    
-    border: 1px solid red;
+    /*
+    border: 1px solid red; */
     
 }
 
@@ -49,7 +57,9 @@ body {
     font-family: Roboto, sans-serif;
 
     height: 100vh;
+    /*
     overflow: hidden;
+    */
     display:flex;
     flex-direction: column;
     border: 1px solid green;
@@ -97,4 +107,58 @@ img {
     font-size: 18px;
     margin:0px;
     padding: 0px;
+}
+
+.randomInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.captionPanelDisplay {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 40px;
+
+    border: 1px solid red;
+}
+
+.captionPanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 150px;
+
+    flex-basis: 100%;
+
+    text-align: center;
+
+    border: 1px solid red;
+}
+
+.captionPanel img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 10%;
+
+    border: 3px solid #3882F6;
+}
+
+.captionThumbnail {
+    max-width: 150px;
+    max-height: 150px;
+    aspect-ratio: 1/1;
+    border: 1px solid red;
+    /*
+    background-color: aqua;
+    border: 1px solid red;
+    */
 }
