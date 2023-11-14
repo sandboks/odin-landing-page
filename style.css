@@ -40,9 +40,9 @@ ul {
 }
 
 p {
-    /*
+    
     border: 1px solid red;
-    */
+    
 }
 
 body {
@@ -77,4 +77,12 @@ body {
     border: 2px solid red;
     align-items: center;
     justify-content: center;
+}
+
+.topBannerChild {
+    flex-basis: 100%; /* This ensures that both sections have equal lengths */
+}
+
+img {
+    max-width: 100%;
 }
