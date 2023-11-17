@@ -11,7 +11,7 @@
     color: white;
 }
 
-button {
+.header button {
     border: none;
     border-radius: 8px;
     background: #3882F6;
@@ -71,8 +71,6 @@ body {
     flex: 1;
     justify-content: flex-start;
     align-items: stretch;
-    
-    border: 3px solid purple;
 }
 
 .topBanner {
@@ -113,7 +111,7 @@ img {
     justify-content: center;
     align-items: center;
 
-    border: 1px solid red;
+    padding-bottom: 40px;
 }
 
 .captionPanelDisplay {
@@ -124,8 +122,6 @@ img {
     align-items: flex-start;
 
     gap: 40px;
-
-    border: 1px solid red;
 }
 
 .captionPanel {
@@ -139,8 +135,6 @@ img {
     flex-basis: 100%;
 
     text-align: center;
-
-    border: 1px solid red;
 }
 
 .captionPanel img {
@@ -156,7 +150,6 @@ img {
     max-width: 150px;
     max-height: 150px;
     aspect-ratio: 1/1;
-    border: 1px solid red;
     /*
     background-color: aqua;
     border: 1px solid red;
@@ -186,22 +179,40 @@ img {
     color: white;
 
     margin: 0;
-
-    border: 1px solid red;
 }
 
 .quoteBanner h3 {
     text-align: right;
     margin: 0;
     color: white;
-
-    border: 1px solid red;
 }
 
 .quoteBannerContents {
     display: flex;
     flex-direction: column;
     gap: 18px;
+}
 
-    border: 1px solid red;
+.SignupBanner {
+    padding: 72px;
+}
+
+.SignupPanel {
+    display:flex;
+    justify-content: space-between;
+    padding: 24px;
+
+
+    border-radius: 10px;
+
+    color:white;
+    background-color: #3882F6;
+}
+
+.SignupPanel h3, .SignupPanel p {
+    margin: 0;
+}
+
+.SignupPanel p {
+    font-weight: 100;
 }
