@@ -62,7 +62,6 @@ body {
     */
     display:flex;
     flex-direction: column;
-    border: 1px solid green;
     margin: 0px;
 }
 
@@ -73,7 +72,7 @@ body {
     justify-content: flex-start;
     align-items: stretch;
     
-    border: 3px solid blue;
+    border: 3px solid purple;
 }
 
 .topBanner {
@@ -84,8 +83,7 @@ body {
 
     
     padding: 40px;
-    border: 2px solid red;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -114,6 +112,8 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    border: 1px solid red;
 }
 
 .captionPanelDisplay {
@@ -161,4 +161,39 @@ img {
     background-color: aqua;
     border: 1px solid red;
     */
+}
+
+.quoteBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #E5E7EB;
+    padding: 72px;
+}
+
+.quoteBanner p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+
+    margin: 0;
+
+    border: 1px solid red;
+}
+
+.quoteBanner h3 {
+    text-align: right;
+    margin: 0;
+
+    border: 1px solid red;
+}
+
+.quoteBannerContents {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+    border: 1px solid red;
 }
