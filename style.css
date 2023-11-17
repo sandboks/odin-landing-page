@@ -170,13 +170,20 @@ img {
 
     background-color: #E5E7EB;
     padding: 72px;
+
+    background-image: url("img/dumbledore2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: grayscale(100%);
 }
 
 .quoteBanner p {
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: bold;
     font-style: italic;
-    color: #1F2937;
+    color: white;
 
     margin: 0;
 
@@ -186,6 +193,7 @@ img {
 .quoteBanner h3 {
     text-align: right;
     margin: 0;
+    color: white;
 
     border: 1px solid red;
 }
