@@ -1,7 +1,12 @@
 .header, .footer {
     justify-content: space-between;
 
-    padding: 12px 36px; /* TODO: Make this line up perfectly with everything else */
+    padding: 12px; /* TODO: Make this line up perfectly with everything else */
+}
+
+.header, .footer, .topBanner, .randomInfo, .quoteBanner, .SignupBanner {
+    padding-left: 72px;
+    padding-right: 72px;
 }
 
 .header, .footer, .topBanner {
@@ -11,13 +16,18 @@
     color: white;
 }
 
-.topBanner button {
+button {
     border: none;
     border-radius: 8px;
     background: #3882F6;
     color: white;
     padding: 8px 24px;
-  }
+}
+
+.SignupBanner button {
+    border: 2px solid white;
+    padding: 8px 24px;
+}
 
 .footer {
     align-items: center;
@@ -80,7 +90,8 @@ body {
     gap: 0px 20px;
 
     
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     align-items: flex-start;
     justify-content: center;
 }
@@ -177,6 +188,7 @@ img {
     font-weight: bold;
     font-style: italic;
     color: white;
+    text-align: center;
 
     margin: 0;
 }
@@ -214,5 +226,6 @@ img {
 }
 
 .SignupPanel p {
+    font-size: 12px;
     font-weight: 100;
 }
